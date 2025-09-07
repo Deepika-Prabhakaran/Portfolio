@@ -7,7 +7,7 @@ import TechStack from "./components/TechStack";
 import Skills from "./sections/Skills";
 import Experiences from "./sections/Experiences";
 import Achievements from "./sections/Achievements";
-import Testimonial from "./sections/Testimonial";
+import AchievementsShowcase from "./sections/AchievementsShowcase";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
 
@@ -28,7 +28,12 @@ const App = () => {
       <div className="container mx-auto max-w-7xl">
         <Experiences />
         <Achievements />
-        <Testimonial />
+      </div>
+
+      {/* Full-width Achievements Showcase section */}
+      <AchievementsShowcase />
+      
+      <div className="container mx-auto max-w-7xl">
         <Contact />
         <Footer/>
       </div>
